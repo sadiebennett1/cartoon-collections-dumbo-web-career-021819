@@ -2,7 +2,7 @@ def roll_call_dwarves(arr)# code an argument here
   # Your code here
   arr.each_with_index do |name, idx|
     order = idx + 1
-    puts order, name
+    puts "#{order}. #{name}"
   end
 end
 
