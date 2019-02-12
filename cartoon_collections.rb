@@ -10,6 +10,7 @@ def summon_captain_planet(arr)# code an argument here
   # Your code here
   arr.collect do |word|
     word[0].upcase + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
